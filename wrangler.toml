@@ -1,0 +1,16 @@
+name = "videoexternallibrary"
+main = "worker.js"
+compatibility_date = "2025-01-25"
+
+# Remove usage_model – not needed
+
+# Routes – replace YOUR_ZONE_ID with your actual zone ID
+# If you don't need a specific route, remove the entire routes block
+routes = [
+  { pattern = "*yourdomain.com/*", zone_id = "REAL_ZONE_ID_HERE" }
+]
+
+# No environment variables needed
+
+[observability]
+enabled = true
