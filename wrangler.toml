@@ -1,0 +1,6 @@
+name = "videoexternallibrary33"
+main = "worker.js"
+compatibility_date = "2025-01-25"
+
+[observability]
+enabled = true
