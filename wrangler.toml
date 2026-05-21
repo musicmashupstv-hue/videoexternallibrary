@@ -1,0 +1,30 @@
+name = "video-library-worker"
+main = "worker.js"
+compatibility_date = "2025-01-25"
+
+# Optional: description for dashboard
+usage_model = "bundled"
+
+# Routes – adjust to your domain(s)
+# Example: intercept all traffic on your domain
+routes = [
+  { pattern = "yourdomain.com/*", zone_id = "YOUR_ZONE_ID" }
+]
+
+# Or use a route with wildcard for all subdomains
+# routes = [
+#   { pattern = "*yourdomain.com/*", zone_id = "YOUR_ZONE_ID" }
+# ]
+
+# Environment variables (none required, but you can add)
+# [vars]
+# DEBUG = "true"
+
+# If you need D1, R2, KV, etc., add them here
+# [[kv_namespaces]]
+# binding = "MY_KV"
+# id = "xxxx"
+
+# Observability
+[observability]
+enabled = true
