@@ -1,0 +1,11 @@
+{
+  "status": "healthy",
+  "version": "3.0",
+  "message": "✅ Video Library is activated",
+  "timestamp": 1712345678901,
+  "endpoints": {
+    "videoInterception": "All supported video formats (.mp4, .mov, .mkv, .m3u8, .mpd)",
+    "playerEngine": "Video.js 8.10.0 + HLS/DASH plugins",
+    "healthCheck": "GET /video-library-health or /health"
+  }
+}
